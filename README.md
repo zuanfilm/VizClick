@@ -1597,7 +1597,874 @@ This stability allows every future Creative System Expert to focus on realizatio
 
 > **The Visual Meaning Layer transforms creative knowledge into creative intent.**
 
-# Chapter 5 — Creative System Experts
+# Chapter 5 — Deterministic Creative Reasoning
+
+> **Creative meaning becomes reconstructable when its observable consequences are represented.**
+
+---
+
+The discoveries developed through the H3 creative-reasoning research revealed an important extension to the VizClick architecture.
+
+The Creative Knowledge Ecology should not only know **what concepts exist**. It must also represent the relationships, observable states, spatial structure, temporal evolution, and cross-domain consequences through which a creative intention becomes reconstructable.
+
+This is the layer between semantic intent and production realization.
+
+```mermaid
+flowchart TD
+
+    Knowledge["Creative Knowledge"]
+    Activation["Contextual Activation"]
+    Relationships["Semantic Relationships"]
+    Observable["Observable Representation"]
+    Temporal["Temporal + Spatial State"]
+    Brief["Production Brief"]
+    Expert["Creative System Expert"]
+
+    Knowledge --> Activation
+    Activation --> Relationships
+    Relationships --> Observable
+    Observable --> Temporal
+    Temporal --> Brief
+    Brief --> Expert
+```
+
+> **VizClick does not merely describe creative concepts. It describes how those concepts become observable.**
+
+---
+
+## Deterministic Representation
+
+Creative systems reconstruct observable reality.
+
+Therefore, abstract concepts must eventually become representations that can be observed, evaluated, and reconstructed.
+
+```mermaid
+graph LR
+
+    Abstract["Creative Meaning"]
+    Semantic["Semantic State"]
+    Visual["Visual State"]
+    Physical["Physical State"]
+    Temporal["Temporal State"]
+
+    Abstract --> Semantic
+    Semantic --> Visual
+    Visual --> Physical
+    Physical --> Temporal
+```
+
+A useful representation distinguishes between:
+
+- what is explicitly known,
+- what is established by reference,
+- what is implied by relationships,
+- what can be deterministically enriched,
+- and what remains genuinely uncertain.
+
+This distinction protects creative intent from arbitrary invention.
+
+> **Enrichment should make meaning more reconstructable—not silently change what the creator meant.**
+
+---
+
+## Contextual Activation
+
+The entire Creative Knowledge Ecology does not need to be activated for every scene.
+
+A scene activates the knowledge domains required by its meaning.
+
+```mermaid
+flowchart TD
+
+    Intent["Creative Intent"]
+
+    Subject["Subject"]
+    Performance["Performance"]
+    Camera["Camera"]
+    Lighting["Lighting"]
+    Environment["Environment"]
+    Motion["Motion"]
+    Color["Color"]
+    Story["Story"]
+
+    Intent --> Subject
+    Intent --> Performance
+    Intent --> Camera
+    Intent --> Lighting
+    Intent --> Environment
+    Intent --> Motion
+    Intent --> Color
+    Intent --> Story
+
+    Performance --> Lighting
+    Performance --> Camera
+    Motion --> Camera
+    Environment --> Lighting
+    Story --> Performance
+```
+
+This produces an **Activation Network** rather than a flat checklist.
+
+A close emotional portrait may strongly activate Performance, Emotion, Camera, Lighting, and Composition while leaving other domains largely dormant.
+
+A moving architectural shot may activate Environment, Camera, Motion, Lighting, Materials, and Spatial Structure.
+
+> **Knowledge is broad. Activation is contextual.**
+
+---
+
+## Cross-Domain Propagation
+
+Creative decisions rarely remain inside one ontology.
+
+```mermaid
+graph TD
+
+    Story["Story"] --> Performance["Performance"]
+    Performance --> Emotion["Emotion"]
+    Emotion --> Lighting["Lighting"]
+    Emotion --> Gesture["Gesture"]
+    Performance --> Composition["Composition"]
+    Composition --> Camera["Camera"]
+    Camera --> Motion["Motion"]
+    Environment["Environment"] --> Lighting
+    Environment --> Composition
+    Lighting --> Color["Color"]
+    Motion --> Camera
+```
+
+A change in one domain can create deterministic consequences in others.
+
+For example:
+
+**Story:** intimate confession
+
+→ **Performance:** restrained body language
+
+→ **Facial behavior:** sustained gaze, subtle mouth tension
+
+→ **Camera:** closer framing and stable viewpoint
+
+→ **Lighting:** controlled, intimate illumination
+
+→ **Composition:** reduced visual distance between subject and audience
+
+The system therefore reasons through **propagation**, not isolated keyword accumulation.
+
+---
+
+## Observable State Layers
+
+A robust representation can be understood as several complementary layers.
+
+```mermaid
+flowchart TD
+
+    Semantic["Semantic Layer"]
+    Visual["Visual Layer"]
+    Physical["Physical Layer"]
+    Spatial["Spatial Layer"]
+    Temporal["Temporal Layer"]
+    Camera["Camera Layer"]
+    Audio["Audio Layer"]
+    Continuity["Continuity Layer"]
+    Constraint["Constraint Layer"]
+
+    Semantic --> Visual
+    Visual --> Physical
+    Physical --> Spatial
+    Spatial --> Temporal
+    Temporal --> Camera
+    Camera --> Audio
+    Audio --> Continuity
+    Continuity --> Constraint
+```
+
+These layers should not be interpreted as a rigid serialization format.
+
+They are reasoning dimensions that help the compiler determine what must remain coherent during reconstruction.
+
+### Semantic Layer
+
+What the scene means.
+
+### Visual Layer
+
+What should be visibly observable.
+
+### Physical Layer
+
+How materials, anatomy, motion, light, and environmental behavior manifest.
+
+### Spatial Layer
+
+Where entities exist in relation to foreground, middleground, background, camera, and one another.
+
+### Temporal Layer
+
+How states evolve over time.
+
+### Camera Layer
+
+How the audience experiences the scene through viewpoint, framing, lens behavior, movement, and continuity.
+
+### Audio Layer
+
+How sound participates in the scene when the destination medium supports it.
+
+### Continuity Layer
+
+Which states, anchors, relationships, and identities must persist across time or shots.
+
+### Constraint Layer
+
+Which conditions must remain preserved during reconstruction.
+
+> **A creative representation becomes robust when its important consequences remain coherent across layers.**
+
+---
+
+## Spatial Reasoning
+
+Spatial structure is not decoration.
+
+It is part of meaning.
+
+```mermaid
+flowchart TD
+
+    Camera["Camera"]
+    Foreground["Foreground"]
+    Midground["Middleground"]
+    Background["Background"]
+
+    Camera --> Foreground
+    Foreground --> Midground
+    Midground --> Background
+```
+
+The representation should distinguish:
+
+- foreground entities and occluders,
+- primary subjects and their immediate relationships,
+- environmental structures,
+- background depth cues,
+- parallax relationships,
+- spatial emphasis,
+- and important visibility/occlusion conditions.
+
+This allows spatial enrichment to remain coherent instead of becoming a random collection of background details.
+
+> **Space is represented relationally, not as a list of scenery.**
+
+---
+
+## Temporal Reasoning
+
+A video is not a sequence of unrelated images.
+
+It is a sequence of states connected by change.
+
+```mermaid
+stateDiagram-v2
+    [*] --> StateA
+    StateA --> StateB: controlled evolution
+    StateB --> StateC: controlled evolution
+    StateC --> [*]
+
+    note right of StateA
+        Initial observable state
+    end note
+
+    note right of StateB
+        Intermediate state
+    end note
+
+    note right of StateC
+        Target observable state
+    end note
+```
+
+VizClick therefore distinguishes **state** from **path**.
+
+A reference image can define a state.
+
+A second reference can define another state.
+
+The representation must also reason about the path connecting them.
+
+> **Keyframes define states. Creative reasoning defines the path between them.**
+
+---
+
+## Anchor-to-Path Reasoning
+
+The most reliable temporal transformations preserve stable visual anchors while allowing controlled change around them.
+
+```mermaid
+flowchart LR
+
+    A["Reference State A"]
+    Anchor["Shared Visual Anchors"]
+    Path["Continuous Path"]
+    B["Reference State B"]
+
+    A --> Anchor
+    Anchor --> Path
+    Path --> B
+```
+
+Anchors may include:
+
+- subject identity,
+- pose relationships,
+- spatial placement,
+- camera relationship,
+- major environmental structures,
+- lighting direction,
+- color relationships,
+- material identity.
+
+The path can then change what is intentionally changing while protecting what should remain stable.
+
+This principle is especially important for image-to-video and reference-to-reference workflows.
+
+---
+
+## Continuity Before Transition
+
+A transition is not automatically a solution to temporal change.
+
+First establish whether the two states can evolve naturally.
+
+```mermaid
+flowchart TD
+
+    A["State A"]
+    Analyze["Analyze Shared State"]
+    Natural["Natural Evolution"]
+    Transition["Transition Mechanism"]
+    B["State B"]
+
+    A --> Analyze
+    Analyze --> Natural
+    Analyze --> Transition
+    Natural --> B
+    Transition --> B
+```
+
+The reasoning priority is:
+
+1. preserve identity,
+2. preserve spatial and camera coherence,
+3. preserve important physical relationships,
+4. determine what naturally changes,
+5. introduce a transition mechanism only when the state difference requires it.
+
+> **Continuity is the default. Transformation is an explanation for change.**
+
+This distinction prevents transitions from becoming arbitrary visual effects.
+
+---
+
+## Natural Evolution
+
+Many apparent transformations can be represented as ordinary physical or behavioral evolution.
+
+A subject can walk rather than teleport.
+
+A fabric can move rather than morph.
+
+Ice can melt rather than suddenly disappear.
+
+Light can change because the source moves rather than because the entire image changes color.
+
+The representation should prefer a coherent causal path when one exists.
+
+```mermaid
+flowchart LR
+
+    Cause["Observable Cause"]
+    State1["Initial State"]
+    Evolution["Natural Evolution"]
+    State2["Resulting State"]
+
+    Cause --> Evolution
+    State1 --> Evolution
+    Evolution --> State2
+```
+
+> **Natural evolution provides a stronger explanation than unexplained visual change.**
+
+---
+
+## Transition Strategy
+
+When a transition is genuinely required, the mechanism should be compatible with the state difference.
+
+```mermaid
+flowchart TD
+
+    StateA["State A"]
+    Difference["State Difference"]
+    Compatibility["Transition Compatibility"]
+    Mechanism["Transition Mechanism"]
+    StateB["State B"]
+
+    StateA --> Difference
+    Difference --> Compatibility
+    Compatibility --> Mechanism
+    Mechanism --> StateB
+```
+
+Transition reasoning considers:
+
+- visual compatibility,
+- physical plausibility within the creative world,
+- camera coherence,
+- spatial continuity,
+- temporal continuity,
+- material behavior,
+- and the intended narrative meaning.
+
+The transition is therefore an **explanation of change**, not merely an effect.
+
+---
+
+## Emotion as Observable Performance
+
+Abstract emotion labels are insufficient for deterministic reconstruction.
+
+```mermaid
+flowchart LR
+
+    Emotion["Emotional State"]
+    Face["Facial Behavior"]
+    Body["Body Language"]
+    Eyes["Eye Behavior"]
+    Gesture["Gesture"]
+    Tension["Muscle Tension"]
+
+    Emotion --> Face
+    Emotion --> Body
+    Emotion --> Eyes
+    Emotion --> Gesture
+    Emotion --> Tension
+```
+
+A representation such as **joy**, **fear**, or **confidence** can be a semantic starting point.
+
+The reconstruction layer should then express the observable consequences:
+
+- facial muscle behavior,
+- gaze direction and stability,
+- eyelid and brow configuration,
+- mouth configuration,
+- head position,
+- posture,
+- gesture,
+- body tension,
+- movement quality,
+- relationship to camera,
+- and relationship to other subjects.
+
+> **Emotion becomes reconstructable when it becomes observable behavior.**
+
+This makes Performance a first-class domain rather than a decorative addition to Subject.
+
+---
+
+## Positive-State Compilation
+
+Constraints are often expressed negatively by creators:
+
+- do not change the subject,
+- do not move the camera,
+- no water from above,
+- do not introduce another character,
+- do not alter the composition.
+
+A renderer cannot always act directly on the concept of absence.
+
+VizClick can compile such constraints into positive observable states.
+
+```mermaid
+flowchart LR
+
+    Negative["Negative Constraint"]
+    State["Required Positive State"]
+    Representation["Observable Representation"]
+
+    Negative --> State --> Representation
+```
+
+For example:
+
+**Constraint:** preserve the camera.
+
+**Positive state:** fixed locked-off viewpoint with stable framing throughout the shot.
+
+**Constraint:** preserve the subject.
+
+**Positive state:** stable identity, anatomy, clothing, and spatial relationship throughout the sequence.
+
+This is more than prompt optimization.
+
+It is a semantic compilation operation.
+
+> **Constraints should become states whenever possible.**
+
+---
+
+## Conditioning Purity
+
+VizClick separates creative reasoning from renderer conditioning.
+
+```mermaid
+flowchart TD
+
+    Knowledge["Canonical Knowledge"]
+    Reasoning["Creative Reasoning"]
+    Intent["Deterministic Intent"]
+    Expert["Creative System Expert"]
+    Conditioning["Renderer Conditioning"]
+
+    Knowledge --> Reasoning --> Intent --> Expert --> Conditioning
+```
+
+The canonical representation should not become contaminated by renderer-specific syntax, model quirks, or temporary implementation instructions.
+
+This preserves the architectural boundary between:
+
+**what should exist**
+
+and
+
+**how a particular system is asked to realize it**.
+
+> **Renderer conditioning is downstream of meaning.**
+
+---
+
+## Enrichment Without Invention
+
+Creative systems benefit from additional detail, but enrichment creates a dangerous boundary.
+
+```mermaid
+flowchart TD
+
+    Intent["Explicit Creative Intent"]
+    Reference["Reference Evidence"]
+    Knowledge["Canonical Knowledge"]
+    Enrichment["Deterministic Enrichment"]
+    Invention["Unsupported Invention"]
+
+    Intent --> Enrichment
+    Reference --> Enrichment
+    Knowledge --> Enrichment
+
+    Enrichment --> Output["Observable Representation"]
+    Invention -.-> Output
+```
+
+Valid enrichment should be supported by:
+
+- explicit intent,
+- reference evidence,
+- canonical knowledge,
+- physical or spatial relationships,
+- temporal requirements,
+- or deterministic consequences of already-established states.
+
+Unsupported invention should remain outside the canonical representation.
+
+Every enriched decision should be traceable to its source or reasoning path.
+
+---
+
+## Constraint Density and Redundancy
+
+Robustness does not mean repeating every concept indefinitely.
+
+Too little information produces ambiguity.
+
+Too much redundant information can create competing instructions.
+
+```mermaid
+flowchart LR
+
+    Sparse["Under-specified"]
+    Robust["Deterministic Coverage"]
+    Dense["Redundant / Conflicting"]
+
+    Sparse --> Robust --> Dense
+```
+
+VizClick should seek **deterministic coverage** rather than maximal text.
+
+A concept should be represented where its observable consequences matter.
+
+Related domains may reinforce the same state, but the compiler should control redundancy.
+
+> **Robust representation is sufficient, coherent, and traceable—not verbose for its own sake.**
+
+---
+
+## Camera as Semantic Knowledge
+
+Camera decisions are not merely technical parameters.
+
+They determine how the audience experiences the represented world.
+
+```mermaid
+graph TD
+
+    Story["Story"] --> Viewpoint["Viewpoint"]
+    Performance["Performance"] --> Viewpoint
+    Composition["Composition"] --> Framing["Framing"]
+    Viewpoint --> Framing
+    Framing --> Lens["Lens / Optical Relationship"]
+    Lens --> Movement["Camera Movement"]
+    Movement --> Motion["Subject Motion Relationship"]
+```
+
+Camera reasoning can therefore include:
+
+- viewpoint,
+- framing,
+- subject-camera relationship,
+- focal-length implications,
+- depth and compression,
+- camera height,
+- movement,
+- movement relative to subject movement,
+- and continuity across time.
+
+> **The camera is part of creative meaning because viewpoint changes meaning.**
+
+---
+
+## Motion as a Relational Domain
+
+Motion is not simply an animation parameter.
+
+It is a relationship between entities and time.
+
+```mermaid
+flowchart TD
+
+    Subject["Subject Movement"]
+    Camera["Camera Movement"]
+    Environment["Environmental Movement"]
+    Physics["Physical Response"]
+    Motion["Observable Motion"]
+
+    Subject --> Motion
+    Camera --> Motion
+    Environment --> Motion
+    Physics --> Motion
+```
+
+A useful motion representation can include:
+
+- direction,
+- speed,
+- acceleration,
+- movement quality,
+- trajectory,
+- interaction,
+- camera relationship,
+- environmental response,
+- motion blur,
+- and temporal continuity.
+
+This allows intention to emerge from motion rather than treating motion as an afterthought.
+
+---
+
+## Workflow as a State Machine
+
+Different reconstruction workflows impose different reasoning requirements.
+
+```mermaid
+stateDiagram-v2
+    [*] --> ImageState
+    ImageState --> VideoState: temporal reconstruction
+    ImageState --> ImageState: image refinement
+    VideoState --> VideoState: temporal continuation
+    VideoState --> TransitionState: state transformation
+    TransitionState --> VideoState: reconstructed continuation
+```
+
+The workflow determines which information is authoritative and which relationships must be preserved.
+
+Examples include:
+
+- text-to-image,
+- image-to-image,
+- text-to-video,
+- image-to-video,
+- reference-to-reference transformation,
+- multi-shot continuation,
+- and reconstruction from multiple anchors.
+
+Workflow detection therefore becomes part of **compiler reasoning**, not merely a UI decision.
+
+---
+
+## Reference Authority
+
+References can play different semantic roles.
+
+```mermaid
+graph LR
+
+    Reference["Reference"] --> State["Observable State"]
+    Reference --> Style["Visual Evidence"]
+    Reference --> Identity["Identity Anchor"]
+    Reference --> Target["Target State"]
+```
+
+VizClick should distinguish:
+
+- state-defining references,
+- identity references,
+- style evidence,
+- intermediate-state references,
+- target-state references,
+- and continuity anchors.
+
+A reference is therefore not merely an image attachment.
+
+It is a semantic source with a defined authority.
+
+---
+
+## Validation Before Rendering
+
+The expanded reasoning model introduces a stronger validation loop.
+
+```mermaid
+flowchart LR
+
+    Intent["Creative Intent"]
+    Representation["Observable Representation"]
+    Validation["Semantic Validation"]
+    Production["Production Brief"]
+    Reconstruction["Reconstruction"]
+    Analysis["Observable Analysis"]
+    Learning["Knowledge Refinement"]
+
+    Intent --> Representation
+    Representation --> Validation
+    Validation --> Production
+    Production --> Reconstruction
+    Reconstruction --> Analysis
+    Analysis --> Learning
+    Learning --> Representation
+```
+
+Validation can occur before rendering and after reconstruction.
+
+### Pre-reconstruction validation
+
+Check whether the representation is:
+
+- coherent,
+- sufficiently deterministic,
+- spatially consistent,
+- temporally consistent,
+- cross-domain consistent,
+- and faithful to the stated intent.
+
+### Post-reconstruction validation
+
+Compare the reconstructed result against observable expectations.
+
+The Scene Inspector can identify discrepancies and feed evidence back into the Creative Knowledge Ecology.
+
+> **Reconstruction is an experiment. Observable output is evidence.**
+
+---
+
+## The Extended VizClick Reasoning Loop
+
+The discoveries above extend the original architecture into a complete semantic-to-observable loop.
+
+```mermaid
+flowchart TD
+
+    Reality["Observable Reality"]
+    Knowledge["Creative Knowledge Ecology"]
+    Activation["Activation Network"]
+    Meaning["Creative Intent Graph"]
+    Reasoning["Deterministic Creative Reasoning"]
+    Observable["Observable Representation"]
+    Compiler["VizClick Compiler"]
+    Brief["Production Brief"]
+    Expert["Creative System Expert"]
+    Reconstruction["Reality Reconstruction Adapter"]
+    Output["Observable Reconstruction"]
+    Inspector["Scene Inspector"]
+    Validation["Human Validation / Research Loop"]
+
+    Reality --> Knowledge
+    Knowledge --> Activation
+    Activation --> Meaning
+    Meaning --> Reasoning
+    Reasoning --> Observable
+    Observable --> Compiler
+    Compiler --> Brief
+    Brief --> Expert
+    Expert --> Reconstruction
+    Reconstruction --> Output
+    Output --> Inspector
+    Inspector --> Validation
+    Validation --> Knowledge
+```
+
+> **VizClick is a closed-loop creative knowledge system.**
+
+It observes.
+
+It represents.
+
+It activates.
+
+It reasons.
+
+It compiles.
+
+It reconstructs.
+
+It analyzes.
+
+It learns.
+
+The architecture therefore remains independent of any individual rendering technology while becoming increasingly capable of representing the conditions required for faithful creative reconstruction.
+
+---
+
+## Core Idea
+
+- Creative knowledge represents stable observable concepts.
+- Activation determines which knowledge matters in context.
+- Relationships create creative meaning.
+- Observable representation describes the consequences of that meaning.
+- Spatial and temporal states make change reconstructable.
+- Cross-domain propagation preserves coherence.
+- Performance translates emotion into observable behavior.
+- Camera and motion are semantic domains.
+- Constraints can be compiled into positive states.
+- Enrichment must remain deterministic and traceable.
+- Renderer conditioning remains downstream.
+- Validation closes the loop between representation and reality.
+
+---
+
+> **Represent meaning. Reason through its consequences. Reconstruct it everywhere.**
+
+# Chapter 6 — Creative System Experts
 
 > **Every creative system is different. Every creative system deserves an expert.**
 
@@ -1881,7 +2748,7 @@ Only the ecosystem grows.
 
 > **Creative meaning remains universal. Expertise is destination-specific.**
 
-# Chapter 6 — The Production Brief
+# Chapter 7 — The Production Brief
 
 > **Creative intent deserves a canonical representation.**
 
@@ -2234,7 +3101,7 @@ This distinction preserves consistency across every destination system.
 
 > **Creative meaning becomes portable when it has a stable representation.**
 
-# Chapter 7 — Creative System Knowledge
+# Chapter 8 — Creative System Knowledge
 
 > **Creative knowledge is timeless. Creative system knowledge evolves.**
 
@@ -2588,7 +3455,7 @@ Together, they produce optimized representations while preserving creative meani
 
 > **Creative knowledge explains what should be created. Creative System Knowledge explains how a particular system understands it.**
 
-# Chapter 8 — Krea Expert V1
+# Chapter 9 — Krea Expert V1
 
 > **A reference implementation demonstrates an architecture without defining its limits.**
 
@@ -2878,7 +3745,7 @@ The architecture remains independent of any single implementation.
 
 > **A reference implementation proves that an architecture can be realized while remaining independent of any particular technology.**
 
-# Chapter 9 — Evolution
+# Chapter 10 — Evolution
 
 > **Strong architectures evolve by extension, not by replacement.**
 
@@ -3154,7 +4021,7 @@ Growth should occur through extension rather than modification.
 
 > **Technology will continue to evolve. Creative meaning should not have to.**
 
-# Chapter 10 — Contributing
+# Chapter 11 — Contributing
 
 > **Great architectures are designed by many minds, guided by shared principles.**
 
@@ -3707,6 +4574,42 @@ As the architecture evolves, new terminology should extend the existing vocabula
 Maintaining a consistent vocabulary improves communication, implementation, documentation, and long-term maintainability.
 
 This glossary serves as the authoritative reference for the terminology used throughout the VizClick architecture.
+## Deterministic Creative Reasoning
+
+The process of converting creative meaning into coherent, observable, spatial, temporal, physical, and relational states before renderer-specific conditioning.
+
+## Observable State
+
+A representation of a condition that can be reconstructed or evaluated through observable evidence.
+
+## Activation Network
+
+The contextual selection and propagation of knowledge domains relevant to a particular creative intention.
+
+## Cross-Domain Propagation
+
+The transmission of semantic consequences between related creative domains such as Story, Performance, Lighting, Camera, Motion, and Composition.
+
+## Anchor-to-Path Reasoning
+
+Temporal reasoning that preserves shared visual anchors while constructing a coherent path between reference states.
+
+## Positive-State Compilation
+
+The transformation of a negative constraint into an explicit observable state that can be represented and reconstructed.
+
+## Deterministic Enrichment
+
+Additional detail derived from explicit intent, references, canonical knowledge, or deterministic consequences without unsupported invention.
+
+## Conditioning Purity
+
+The architectural separation between canonical creative representation and renderer-specific conditioning.
+
+## Continuity Layer
+
+The representation of identities, spatial relationships, visual anchors, and other states that should persist across temporal or shot boundaries.
+
 # Appendix B — Complete Architecture
 
 > **A complete view of the VizClick architecture.**
