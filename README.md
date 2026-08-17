@@ -1632,6 +1632,330 @@ flowchart TD
 
 ---
 
+## The Faithful & Enriched Approach
+
+> **Faithfulness preserves creative meaning. Enrichment makes that meaning reconstructable.**
+
+The first functional implementation of VizClick's creative-reasoning methodology established an important distinction between **faithful representation** and **enriched representation**.
+
+This distinction is especially valuable for image and video prompt compilation, but the principle belongs to VizClick itself rather than to any particular renderer.
+
+### Faithful Representation
+
+The **Faithful** approach preserves the creator's explicit creative intent and constraints while translating them into deterministic, observable production information.
+
+It should:
+
+- preserve explicit user constraints;
+- preserve reference-defined information;
+- avoid unnecessary creative invention;
+- resolve unspecified dimensions only when needed for coherent realization;
+- express decisions as observable states rather than abstract adjectives.
+
+### Enriched Representation
+
+The **Enriched** approach preserves every explicit creative decision while introducing additional, contextually compatible information where that information materially improves reconstruction.
+
+Enrichment is not decorative expansion.
+
+It is **probability-informed creative inference**: selecting plausible, mutually compatible, visually expressive, physically coherent, and useful details from the available creative knowledge.
+
+```mermaid
+flowchart LR
+
+    Intent["Explicit Creative Intent"]
+    Faithful["Faithful Representation"]
+    Enriched["Contextual Enrichment"]
+    Observable["Observable Creative State"]
+    Production["Production Representation"]
+
+    Intent --> Faithful
+    Faithful --> Observable
+    Intent --> Enriched
+    Enriched --> Observable
+    Observable --> Production
+```
+
+> **The user remains the final creative authority.**
+
+Faithful and enriched representations are therefore not competing interpretations. They are two levels of realization built from the same creative authority.
+
+---
+
+## Maximum Deterministic Information with Minimum Redundancy
+
+> **The objective is not more words. It is more deterministic information.**
+
+Creative reasoning becomes stronger when each representation contributes a distinct, observable constraint that can materially affect reconstruction.
+
+VizClick therefore favors:
+
+- explicit observable states;
+- independently meaningful constraints;
+- physical and spatial relationships;
+- contextual specificity;
+- cross-domain consequences;
+- concise representations without repeated instructions.
+
+It avoids:
+
+- generic cinematic filler;
+- repeated descriptions of the same state;
+- duplicate camera or emotion instructions;
+- contradictory enrichments;
+- decorative detail that does not affect the result.
+
+```mermaid
+flowchart TD
+
+    Meaning["Creative Meaning"]
+    Information["Deterministic Information"]
+    Redundancy["Redundancy Control"]
+    Coherence["Coherent Representation"]
+    Reconstruction["Reconstructable Result"]
+
+    Meaning --> Information
+    Information --> Redundancy
+    Redundancy --> Coherence
+    Coherence --> Reconstruction
+```
+
+> **Maximum deterministic information with minimum redundancy.**
+
+This principle extends VizClick's concept of Observable Representation: the goal is not exhaustive description, but **high-information representation with low ambiguity**.
+
+---
+
+## Mandatory Spatial Layer Description
+
+> **A scene is not a list of objects. It is a spatial relationship.**
+
+Spatial structure is a first-class component of observable creative representation.
+
+Whenever a scene contains meaningful spatial relationships, VizClick should represent:
+
+- foreground;
+- subject / primary action plane;
+- middle ground;
+- background;
+- relative depth;
+- spatial separation;
+- subject-to-environment relationships;
+- meaningful parallax and perspective relationships.
+
+```mermaid
+flowchart TD
+
+    Scene["Scene"]
+    Foreground["Foreground"]
+    Subject["Subject / Action Plane"]
+    Midground["Middle Ground"]
+    Background["Background"]
+    Depth["Spatial Depth + Relationships"]
+
+    Scene --> Foreground
+    Scene --> Subject
+    Scene --> Midground
+    Scene --> Background
+    Foreground --> Depth
+    Subject --> Depth
+    Midground --> Depth
+    Background --> Depth
+```
+
+The purpose is not to force every scene into a rigid template. It is to ensure that important spatial relationships are not silently delegated to unconstrained renderer inference.
+
+Spatial reasoning connects directly to composition, camera, lighting, environment, motion, and continuity.
+
+---
+
+## Cross-Domain Robustness & Propagation
+
+> **Creative knowledge is an ecology because creative decisions propagate.**
+
+Knowledge domains should never be treated as isolated checklists.
+
+When one meaningful domain is activated or enriched, VizClick evaluates its relevant consequences in connected domains.
+
+```mermaid
+flowchart TD
+
+    Intent["Creative Intent"]
+
+    Performance["Performance"]
+    Motion["Motion"]
+    Camera["Camera"]
+    Framing["Framing"]
+    Lighting["Lighting"]
+    Sound["Sound"]
+    Environment["Environment"]
+
+    Intent --> Performance
+    Performance --> Motion
+    Performance --> Camera
+    Motion --> Framing
+    Motion --> Sound
+    Environment --> Lighting
+    Camera --> Framing
+    Lighting --> Camera
+```
+
+For example, a running subject can produce meaningful consequences across:
+
+`Performance → Motion → Wardrobe → Facial Performance → Camera → Framing → Sound → Environment`
+
+A golden-hour decision can propagate through:
+
+`Time → Lighting → Color → Atmosphere → Exposure → Shadow Behavior`
+
+Propagation is **selective**, not exhaustive. VizClick propagates only consequences that materially improve the selected creative direction.
+
+This produces robustness without turning the ontology into a checklist.
+
+---
+
+## Probabilistic Creative Reasoning
+
+> **Reason probabilistically about the unspecified. Preserve certainty where the creator has already spoken.**
+
+VizClick can use structured creative knowledge as a **probabilistic search space** when the creator leaves dimensions unspecified.
+
+The process is:
+
+```mermaid
+flowchart TD
+
+    Context["Semantic Context"]
+    Candidates["Plausible Creative Candidates"]
+    Compatibility["Cross-Domain Compatibility"]
+    Coherence["Coherent Combination"]
+    Observable["Observable Decision"]
+
+    Context --> Candidates
+    Candidates --> Compatibility
+    Compatibility --> Coherence
+    Coherence --> Observable
+```
+
+Probabilistic reasoning does **not** mean randomness.
+
+It means selecting the strongest contextually compatible interpretation from plausible alternatives while respecting the certainty hierarchy:
+
+```text
+Explicit user information
+        ↓
+Reference-defined information
+        ↓
+Strong contextual implications
+        ↓
+Probabilistic enrichment of unspecified dimensions
+```
+
+When several interpretations are equally plausible, prefer the one that creates the clearest coherent creative direction rather than unnecessary complexity.
+
+---
+
+## Natural Evolution Priority
+
+> **When a state can evolve naturally, prefer evolution over artificial transition.**
+
+For temporal creative work, especially video, VizClick prioritizes physically and narratively plausible evolution before introducing explicit transition mechanisms.
+
+```mermaid
+stateDiagram-v2
+
+    [*] --> InitialState
+    InitialState --> NaturalEvolution
+    NaturalEvolution --> IntermediateState
+    IntermediateState --> FinalState
+    NaturalEvolution --> TransitionStrategy : only when necessary
+    TransitionStrategy --> FinalState
+    FinalState --> [*]
+```
+
+Natural evolution may include:
+
+- body movement;
+- facial movement;
+- pose progression;
+- object interaction;
+- locomotion;
+- environmental movement;
+- camera movement;
+- lighting evolution;
+- atmospheric change;
+- secondary motion;
+- physical cause and effect.
+
+Artificial transition mechanisms are introduced only when they are necessary, explicitly requested, or required to bridge states that cannot be connected naturally.
+
+This principle is particularly important when reasoning from reference states: a reference image should be treated as **one observable moment in a temporal sequence**, not merely as an appearance target.
+
+---
+
+## The First Functional Pilot — ZH3-GPT + MiniMax H3
+
+> **VizClick is renderer-independent. Its first pilot is deliberately renderer-specific.**
+
+The first functional implementation of this reasoning methodology is **ZH3-GPT**, a text-only creative reasoning and prompt-writing system developed as a pilot around **MiniMax H3**.
+
+MiniMax H3 is therefore the **first experimental pilot renderer**, not the definition of VizClick itself.
+
+```mermaid
+flowchart TD
+
+    VizClick["VizClick Creative Knowledge Ecology"]
+    Reasoning["Creative Reasoning Methodology"]
+    ZH3["ZH3-GPT — First Functional Pilot"]
+    Adapter["MiniMax H3 Renderer Adapter"]
+    H3["MiniMax H3"]
+    Future["Future Creative Systems"]
+
+    VizClick --> Reasoning
+    Reasoning --> ZH3
+    ZH3 --> Adapter
+    Adapter --> H3
+    Reasoning --> Future
+```
+
+The pilot is valuable because it provides an empirical environment in which VizClick principles can be tested against real creative reconstruction tasks.
+
+The implementation explores, among other things:
+
+- Faithful versus Enriched representations;
+- contextual category activation;
+- cross-domain propagation;
+- mandatory spatial layers;
+- deterministic information density;
+- probabilistic creative reasoning;
+- anchor-to-path temporal reasoning;
+- natural evolution priority;
+- continuity across reference states;
+- observable emotional and physical performance;
+- renderer-specific prompt compilation.
+
+The resulting knowledge feeds back into VizClick's renderer-independent architecture.
+
+```mermaid
+flowchart LR
+
+    Hypothesis["Creative Hypothesis"]
+    Pilot["ZH3-GPT + MiniMax H3"]
+    Observation["Observed Reconstruction"]
+    Validation["Human / System Validation"]
+    Knowledge["Updated Creative Knowledge"]
+
+    Hypothesis --> Pilot
+    Pilot --> Observation
+    Observation --> Validation
+    Validation --> Knowledge
+    Knowledge --> Hypothesis
+```
+
+> **The pilot tests the architecture. The architecture is not defined by the pilot.**
+
+---
+
 ## Deterministic Representation
 
 Creative systems reconstruct observable reality.
@@ -2448,8 +2772,13 @@ The architecture therefore remains independent of any individual rendering techn
 ## Core Idea
 
 - Creative knowledge represents stable observable concepts.
+- Faithful representation preserves explicit creative authority.
+- Enriched representation adds only contextually justified information.
+- Maximum deterministic information should be expressed with minimum redundancy.
+- Spatial structure is a first-class layer of observable representation.
 - Activation determines which knowledge matters in context.
 - Relationships create creative meaning.
+- Cross-domain propagation preserves consequences across the ecology.
 - Observable representation describes the consequences of that meaning.
 - Spatial and temporal states make change reconstructable.
 - Cross-domain propagation preserves coherence.
@@ -4772,10 +5101,3 @@ Creative Output
 ---
 
 > **VizClick preserves creative meaning by separating timeless creative knowledge from evolving creative technologies.**
-
-
-
-
-
-
-
