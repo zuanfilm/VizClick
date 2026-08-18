@@ -30,6 +30,8 @@ VizClick is a **Creative Knowledge Ecology (CKE)** for representing observable v
 
 Rather than generating prompts, VizClick represents knowledge through deterministic, composable ontologies. This knowledge is transformed into Creative Intent and reconstructed by specialized adapters for AI image generation, AI video generation, 3D applications, game engines, and future visual technologies.
 
+[![Watch the video](https://youtube.com)](https://www.youtube.com/watch?v=Oai7MdysBOA)
+
 ```text
                                    OBSERVABLE REALITY
                                             │
