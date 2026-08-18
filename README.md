@@ -16,7 +16,7 @@
 </a>
 
 <p align="center">
-  <i>▶ Watch a generated VizClick Promt</i>
+  <i>▶ Watch a generated VizClick Prompt in H3 Minimax</i>
 </p>
 
 ────────────────────────────────────────────
