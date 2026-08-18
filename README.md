@@ -15,8 +15,8 @@
   <img width="600" height="336" alt="VizClick — Creative Representation Layer" src="https://github.com/user-attachments/assets/757e6390-ec68-41f1-8d13-615f8b8068b2" />
 </a>
 
-<p align="center">
-  <i>▶ Watch a generated VizClick Prompt in H3 Minimax</i>
+<p align="left">
+  <i>▶ Watch a generated VizClick Prompt</i>
 </p>
 
 ────────────────────────────────────────────
